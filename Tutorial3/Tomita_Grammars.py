@@ -6,7 +6,7 @@ def tomita_2(word):
 
 import re
 _not_tomita_3 = re.compile("((0|1)*0)*1(11)*(0(0|1)*1)*0(00)*(1(0|1)*)*$")
-task_1_re = re.compile("0*1(0(0|1)|1)*")
+task_1_re = re.compile("0*1(0(0|1)|1)*$")
 # *not* tomita 3: words containing an odd series of consecutive ones and then later an odd series of consecutive zeros
 # tomita 3: opposite of that
 def tomita_3(w): 
