@@ -29,4 +29,4 @@ def task_1(word):
     return not None is task_1_re.match(word)
 
 def task_2(word):
-    return not None is task_2_re.match(word)
+    return not None is task_2_re.search(word)
